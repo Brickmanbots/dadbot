@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const token = process.env.token;
 const prefix = "dad";
-var rand =["dadjoke 1", "dadjoke 2"];
+var rand =["With great power comes a huge electricity bill.", "I killed a piece of paper. RIP", "Why can’t you stay up until the cows come home? Because it's pasture bedtime.", "A horse walks into a bar. The bartender says `Hey!` Then the horse replies `Sounds good!`", "A dad was washing his car with his son. The son asked why he couldn't just use a sponge.", "I dont know why drunks fail the line test. It's really straight forward."];
 var pun =["dadpun 1", "dadpun 2"];
 
 

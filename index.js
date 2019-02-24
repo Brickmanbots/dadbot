@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const token = "NTQ5MDM5MDE4NzQzMTY5MDM1.D1OEbg.sRjZ_kehag65vJwxRUzBwLs2j_Y" 
+const token = process.env.token;
 const prefix = "dad";
 var rand =["dadjoke 1", "dadjoke 2"];
 var pun =["dadpun 1", "dadpun 2"];
@@ -35,4 +35,4 @@ client.on('ready', () => {
         const m = await message.channel.send("Ping?");
         m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
         }});
-        client.login(token)
+        client.login(token).catch(err => console.log(err));

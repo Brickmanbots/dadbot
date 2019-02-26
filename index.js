@@ -21,6 +21,7 @@ client.on('ready', () => {
                 .addField("**Joke**", "Tells a dad joke")
                 .addField("**Pun**", "Tells a pun")
                 .addField("**Ping**", "Gets the ping of the bot.")
+                .addField("**Support**", "Sends a link to the support server")
                 .setTimestamp()
                 .setFooter("Created by brickman#4669", client.user.avatarURL)
                 message.channel.send(embed)

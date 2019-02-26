@@ -35,6 +35,6 @@ client.on('ready', () => {
         const m = await message.channel.send("Ping?");
         m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
     } else if (message.content.startsWith(`${prefix}support`)) {
-        message.channel.send("Join the Brickman Development support server: discord.gg/QHqJxMm
+        message.channel.send("Join the Brickman Development support server: discord.gg/QHqJxMm);
         }});
         client.login(token).catch(err => console.log(err));

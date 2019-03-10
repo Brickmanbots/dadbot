@@ -14,7 +14,7 @@ client.on('ready', () => {
                 .setColor(0x252629)
                 .setAuthor(client.user.username, client.user.avatarURL)
                 .setTitle("Help Menu")
-                .setDescription("The Help Menu for DadBot")
+                .setDescription("The Help Menu for Dad")
                 .addField("**Help**", "Shows the help menu.")
                 .addField("**Joke**", "Tells a dad joke")
                 .addField("**Pun**", "Tells a pun")

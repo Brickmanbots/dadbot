@@ -24,9 +24,9 @@ client.on('ready', () => {
                 .setFooter("Created by Brickman#4669", client.user.avatarURL)
                 message.channel.send(embed)
             
-        } else if (message.content.startsWith("I'm ", "i'm ", "im ", "Im ", "IM ")){
+        } else if (message.content.startsWith("I'm ")){
 
-var content = message.content.replace("I'm ", "i'm ", "im ", "Im ", "IM " "")
+var content = message.content.replace("I'm ", "")
 
 message.channel.send("Hi, " + content + ", I'm dad!")  
 }  

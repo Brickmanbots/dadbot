@@ -28,22 +28,22 @@ client.on('ready', () => {
 
 var content = message.content.replace("im ", "")
 
-message.channel.send("Hi, " + content + ", I'm Dad!");
+message.channel.send("Hi " + content + ", I'm Dad!");
                     } else if (message.content.startsWith("i'm ") ){
 
 var content2 = message.content.replace("i'm ", "")
 
-message.channel.send("Hi, " + content2 + ", I'm Dad!");
+message.channel.send("Hi " + content2 + ", I'm Dad!");
                          } else if (message.content.startsWith("I'm ") ){
 
 var content3 = message.content.replace("I'm ", "")
 
-message.channel.send("Hi, " + content3 + ", I'm Dad!");
+message.channel.send("Hi " + content3 + ", I'm Dad!");
                               } else if (message.content.startsWith("Im ") ){
 
 var content4 = message.content.replace("Im ", "")
 
-message.channel.send("Hi, " + content4 + ", I'm Dad!");
+message.channel.send("Hi " + content4 + ", I'm Dad!");
 
             
         } else if (message.content.startsWith(`${prefix}joke`)) {

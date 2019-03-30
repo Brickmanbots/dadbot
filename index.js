@@ -34,6 +34,16 @@ message.channel.send("Hi, " + content + ", I'm Dad!");
 var content2 = message.content.replace("i'm ", "")
 
 message.channel.send("Hi, " + content2 + ", I'm Dad!");
+                         } else if (message.content.startsWith("I'm ") ){
+
+var content3 = message.content.replace("I'm ", "")
+
+message.channel.send("Hi, " + content2 + ", I'm Dad!");
+                              } else if (message.content.startsWith("Im ") ){
+
+var content4 = message.content.replace("Im ", "")
+
+message.channel.send("Hi, " + content2 + ", I'm Dad!");
 
             
         } else if (message.content.startsWith(`${prefix}joke`)) {

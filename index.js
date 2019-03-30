@@ -26,7 +26,7 @@ client.on('ready', () => {
             
         } else if (message.content.startsWith("im ") ){
 
-var content = message.content.replace("I'm ", "")
+var content = message.content.replace("im ", "")
 
 message.channel.send("Hi, " + content + ", I'm Dad!");
 

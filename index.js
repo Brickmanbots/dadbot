@@ -24,12 +24,12 @@ client.on('ready', () => {
                 .setFooter("Created by Brickman#4669", client.user.avatarURL)
                 message.channel.send(embed)
             
-        } else if (message.content.startsWith("I'm ")){
+        } else if (message.content.startsWith("I'm ") ){
 
 var content = message.content.replace("I'm ", "")
 
-message.channel.send("Hi, " + content + ", I'm dad!")  
-}  
+message.channel.send("Hi, " + content + ", I'm dad!");
+
             
         } else if (message.content.startsWith(`${prefix}joke`)) {
             var repl = rand[Math.floor(Math.random()*rand.length)];

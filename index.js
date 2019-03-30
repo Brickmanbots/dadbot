@@ -29,6 +29,11 @@ client.on('ready', () => {
 var content = message.content.replace("im ", "")
 
 message.channel.send("Hi, " + content + ", I'm Dad!");
+                    } else if (message.content.startsWith("i'm ") ){
+
+var content2 = message.content.replace("i'm ", "")
+
+message.channel.send("Hi, " + content2 + ", I'm Dad!");
 
             
         } else if (message.content.startsWith(`${prefix}joke`)) {

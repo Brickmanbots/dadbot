@@ -1,2 +1,2 @@
-# dadbot
-project i made in my spare time when taking a break from utili
+# Dadbot
+Project I made in my spare time when taking a break from utili

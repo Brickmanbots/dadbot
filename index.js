@@ -19,33 +19,9 @@ client.on('ready', () => {
                 .addField("**Joke**", "Tells a dad joke")
                 .addField("**Pun**", "Tells a pun")
                 .addField("**Ping**", "Gets the ping of the bot.")
-                .addField("**Support**", "Sends a link to the support server")
                 .setTimestamp()
                 .setFooter("Created by Brickman#4669", client.user.avatarURL)
                 message.channel.send(embed)
-            
-        } else if (message.content.startsWith("im ") ){
-
-var content = message.content.replace("im ", "")
-
-message.channel.send("Hi " + content + ", I'm Dad!");
-                    } else if (message.content.startsWith("i'm ") ){
-
-var content2 = message.content.replace("i'm ", "")
-
-message.channel.send("Hi " + content2 + ", I'm Dad!");
-                         } else if (message.content.startsWith("I'm ") ){
-
-var content3 = message.content.replace("I'm ", "")
-
-message.channel.send("Hi " + content3 + ", I'm Dad!");
-                              } else if (message.content.startsWith("Im ") ){
-
-var content4 = message.content.replace("Im ", "")
-
-message.channel.send("Hi " + content4 + ", I'm Dad!");
-
-            
         } else if (message.content.startsWith(`${prefix}joke`)) {
             var repl = rand[Math.floor(Math.random()*rand.length)];
         message.channel.send(repl);
@@ -55,7 +31,4 @@ message.channel.send("Hi " + content4 + ", I'm Dad!");
     } else if (message.content.startsWith(`${prefix}ping`)) {
         const m = await message.channel.send("Ping?");
         m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
-    } else if (message.content.startsWith(`${prefix}support`)) {
-        message.channel.send("Join the Brickman Development support server: discord.gg/QHqJxMm");
-                             }});
         client.login(token).catch(err => console.log(err));

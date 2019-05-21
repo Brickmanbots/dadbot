@@ -19,7 +19,7 @@ client.on('ready', () => {
                 .addField("**Pun**", "Tells a pun")
                 .addField("**Ping**", "Gets the ping of the bot.")
                 .setTimestamp()
-                .setFooter("Created by Brickman#4669", client.user.avatarURL)
+                .setFooter("Created by cyliim#4669", client.user.avatarURL)
                 message.channel.send(embed)
         } else if (message.content.startsWith(`${prefix}joke`)) {
             var repl = rand[Math.floor(Math.random()*rand.length)];

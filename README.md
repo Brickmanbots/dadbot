@@ -1,2 +1,8 @@
-# Dadbot
-Project I made in my spare time when taking a break from utili
+# Dad
+
+## A Discord Bot
+
+Dad is a Discord Bot for sending jokes and puns to the channel.
+
+## Cloning
+

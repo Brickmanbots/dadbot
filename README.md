@@ -11,4 +11,4 @@ If you haven't already, make a Discord account. Go to discordapp.com/developers/
 $ git clone github.com/cyliim/dadbot.git
 ```
 <br>
-Open the folder and go to `config.json`. Where it says "TOKENHERE", copy and paste your token from the application you made earlier. Navigate to the directory and use `node index.js`. Your Dad is up and running!
+Open the folder and go to ```config.json```. Where it says "TOKENHERE", copy and paste your token from the application you made earlier. Navigate to the directory and use ```node index.js```. Your Dad is up and running!
